@@ -1,6 +1,6 @@
 # 🎮 Breakout Game
 
-A classic arcade game where players must break blocks using a bouncing ball and paddle. Built with HTML5 Canvas and JavaScript.
+A classic arcade game where players must break blocks using a bouncing ball and paddle. Built with HTML5 and JavaScript.
 
 ## Overview
 
@@ -13,7 +13,7 @@ Breakout is an arcade game where players control a paddle to bounce a ball and b
 
 # 🎮 Connect Four Game
 
-A classic two-player connection game where players drop colored discs to form a line of four. Built with HTML5 Canvas and JavaScript.
+A classic two-player connection game where players drop colored discs to form a line of four. Built with HTML5 and JavaScript.
 
 ## Overview
 
@@ -27,7 +27,7 @@ Connect Four is a strategic board game where players take turns dropping colored
 
 # 🎮 Fogger Game
 
-A classic arcade action game where players guide a frog across dangerous obstacles to reach home. Built with HTML5 Canvas and JavaScript.
+A classic arcade action game where players guide a frog across dangerous obstacles to reach home. Built with HTML5 and JavaScript.
 
 ## Overview
 
@@ -51,6 +51,19 @@ Rock Paper Scissors is an engaging decision-based game with simple yet strategic
 - Win/Loss tracking
 - Score history
 
+# 🎮 Save Collision Game
+
+A classic game where player must jump dino so it not hit with obstacle. Built with HTML5 and JavaScript.
+
+## Overview
+
+Save Collision game is game where player dino have to jump when obstacle came near so it increase score otherwise obstacle will eat dino and game will be over . The game features:
+
+- Score system
+- Game music
+- Beautiful Animations
+- Collision detection
+
 # 🎮 Memory Game
 
 A classic concentration card game where players must match pairs of cards. Built with HTML5 and JavaScript.
@@ -67,7 +80,7 @@ Test your memory skills by matching all card pairs in the shortest time with min
 
 # 🎮 Space Invaders Game
 
-A classic arcade shooter where players defend Earth from alien invasion. Built with HTML5 Canvas and JavaScript.
+A classic arcade shooter where players defend Earth from alien invasion. Built with HTML5 and JavaScript.
 
 ## Overview
 

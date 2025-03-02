@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla:opsz,wght@8..30,200;8..30,300;8..30,400&family=Quintessential&family=Roboto:ital@1&family=Yeon+Sung&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow: hidden;
+  /* background: rgb(39, 39, 39); */
+}
+.gameOver {
+  visibility: hidden;
+  position: relative;
+  text-align: center;
+  top: 8rem;
+  font-family: "Piazzolla", serif;
+  font-family: sans-serif;
+  font-weight: bold;
+
+  h1 {
+    font-size: 2.2rem;
+    /* background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; */
+  }
+}
+
+.gameContainer {
+  background: url(bg.png) no-repeat;
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.dino {
+  background: url(dino.png) no-repeat;
+  background-size: cover;
+  width: 20rem;
+  height: 10rem;
+  /* padding: 2rem 2rem; */
+  position: absolute;
+  bottom: 0;
+  left: 12rem;
+}
+.animateDino {
+  animation: dinoJump 1s linear infinite;
+}
+@keyframes dinoJump {
+  0% {
+    /* transform: translateY( 0rem); */
+    bottom: 0;
+  }
+  50% {
+    /* transform: translateY( 16rem); */
+    bottom: 20rem;
+  }
+  100% {
+    bottom: 0rem;
+  }
+}
+
+.obstacle {
+  background: url(dragon.png) no-repeat;
+  background-size: cover;
+  width: 12rem;
+  height: 8.25rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.obstacleAni {
+  animation: obstacleAni 3s linear infinite;
+}
+@keyframes obstacleAni {
+  0% {
+    left: 100vw;
+  }
+  100% {
+    left: -10vw;
+  }
+}
+
+#scoreCount {
+  position: absolute;
+  text-align: center;
+  top: 4rem;
+  right: 2rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+  font-family: "Quintessential", cursive;
+  padding: 10px 2rem;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.247);
+}
+
+#btn {
+  padding: 10px 20px;
+  position: absolute;
+  font-size: 1rem;
+  top: 2rem;
+  left: 2rem;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  outline: none;
+  /* font-family: "Quintessential", cursive; */
+  border: none;
+  background-color: lightcoral;
+  color: white;
+}
