@@ -1,0 +1,93 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(25deg, #d64c7f, #ee4758 50%);
+}
+
+.grid {
+  width: 450px;
+  height: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 8rem auto;
+  background: white;
+  box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.18);
+}
+
+.grid div {
+  height: 50px;
+  width: 50px;
+}
+.ending-block {
+  background-color: rgb(225, 0, 255);
+}
+.starting-block {
+  background-color: blue;
+}
+/* .log-left, .log-right{
+    background-color: aqua;
+} */
+.car-left,
+.car-right {
+  background-color: rgb(169, 129, 206);
+}
+
+.l1,
+.l2,
+.l3 {
+  background-color: rgb(198, 241, 255);
+}
+.l5,
+.l4 {
+  background-color: rgb(238, 6, 53);
+}
+
+.c1 {
+  background-color: black;
+}
+.c2,
+.c3 {
+  background-color: rgb(213, 255, 172);
+}
+.frog {
+  background: green;
+}
+.btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  position: absolute;
+  font-size: 1.1rem;
+  border-radius: 3rem;
+  bottom: 5%;
+  left: 46%;
+  box-shadow: 0px 8px 6px -6px black;
+}
+
+.btn:hover {
+  color: white;
+  background: linear-gradient(to right, #00b4db, #0083b0);
+}
+
+#time {
+  position: absolute;
+  top: 1%;
+  left: 20%;
+  font-size: 1.5rem;
+  color: white;
+  border: 2px solid black;
+  padding: 0.6rem 1rem;
+  box-shadow: 8px 8px 6px -6px black;
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+#resultH3 {
+  position: absolute;
+  top: 1%;
+  right: 20%;
+  font-size: 1.5rem;
+  color: white;
+  border: 2px solid black;
+  padding: 0.6rem 1rem;
+  box-shadow: 8px 8px 6px -6px black;
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+}
